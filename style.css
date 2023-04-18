@@ -3,7 +3,9 @@
   --dark: #1f2937;
   --primary: #3b82f6;
   --secondary: #e5e7eb;
-  --max-width: 750px;
+  --max-width: 800px;
+  --default-margins: 75px 0;
+  --inset: 100px;
 }
 
 * {
@@ -75,7 +77,7 @@ nav a {
 /* First bar */
 
 header {
-  padding: 20px 0;
+  margin: var(--default-margins);
   display: flex;
   justify-content: space-between;
 }
@@ -83,7 +85,7 @@ header {
 /* Second bar (boxes) */
 
 main {
-  padding: 8% 0;
+  margin: var(--default-margins);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -91,8 +93,10 @@ main {
 
 .squareBoxes {
   display: flex;
-  gap: 40px;
-  margin-top: 4%;
+  width: var(--max-width);
+  padding: 0 var(--inset);
+  justify-content: space-between;
+  margin-top: 15px;
 }
 
 .squareBoxes p {
@@ -110,7 +114,8 @@ main {
 /* Quotation bar */
 
 .quoteBox {
-  padding: 8% 0;
+  margin: var(--default-margins);
+  padding: 0 var(--inset);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -129,8 +134,8 @@ main {
 
 .actionBox {
   display: flex;
-  margin: 5% 10%;
-  padding: 5% 10%;
+  margin: var(--default-margins);
+  padding: 40px var(--inset);
   justify-content: space-between;
   align-items: center;
   border-radius: 8px;
