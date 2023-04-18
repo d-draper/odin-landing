@@ -60,22 +60,17 @@ main {
 
 .actionBox {
   display: flex;
+  margin: 5% 10%;
+  padding: 5% 10%;
   justify-content: space-between;
   align-items: center;
   background-color: lightskyblue;
 }
 
-.leftAlign {
-  border: 1px solid rebeccapurple;
-}
-
-.rightAlign {
-  border: 1px solid rebeccapurple;
-}
-
 footer {
   display: flex;
   justify-content: center;
+  background-color: yellow;
 }
 
 .boxImg {
