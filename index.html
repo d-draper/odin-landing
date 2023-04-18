@@ -6,73 +6,85 @@
     <link rel="stylesheet" href="style.css" type="text/css" />
   </head>
   <body>
-    <nav>
-      <div>Header logo</div>
-      <div class="header-links">
-        <a href="">header link one</a>
-        <a href="">header link two</a>
-        <a href="">header link three</a>
-      </div>
-    </nav>
-
-    <header>
-      <div class="sidebox">
-        <h1>This website is awesome</h1>
-        <p class="subheading">subtext</p>
-        <button>Sign up</button>
-      </div>
-      <div class="headerImage">
-        <img
-          src="./images/platypus.jpg"
-          alt="An image of a platypus"
-          width="200px"
-          height="auto"
-        />
-      </div>
-    </header>
-
-    <main>
-      <h2>Some random information</h2>
-      <section class="squareBoxes">
-        <div>
-          <div class="boxImg"></div>
-          <p>Box 1</p>
+    <div class="wrapper dark">
+      <nav>
+        <div>Header logo</div>
+        <div class="header-links">
+          <a href="">header link one</a>
+          <a href="">header link two</a>
+          <a href="">header link three</a>
         </div>
+      </nav>
+    </div>
 
-        <div>
-          <div class="boxImg"></div>
-          <p>Box 2</p>
+    <div class="wrapper dark">
+      <header>
+        <div class="sidebox">
+          <h1>This website is awesome</h1>
+          <p class="subheading">subtext</p>
+          <button>Sign up</button>
         </div>
+        <div class="headerImage">
+          <img
+            src="./images/platypus.jpg"
+            alt="An image of a platypus"
+            width="200px"
+            height="auto"
+          />
+        </div>
+      </header>
+    </div>
 
-        <div>
-          <div class="boxImg"></div>
-          <p>Box 3</p>
-        </div>
+    <div class="wrapper light">
+      <main>
+        <h2>Some random information</h2>
+        <section class="squareBoxes">
+          <div>
+            <div class="boxImg"></div>
+            <p>Box 1</p>
+          </div>
 
-        <div>
-          <div class="boxImg"></div>
-          <p>Box 4</p>
+          <div>
+            <div class="boxImg"></div>
+            <p>Box 2</p>
+          </div>
+
+          <div>
+            <div class="boxImg"></div>
+            <p>Box 3</p>
+          </div>
+
+          <div>
+            <div class="boxImg"></div>
+            <p>Box 4</p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div class="wrapper secondary">
+      <section class="quoteBox">
+        <div class="quote">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that it has a more-or-less normal distribution of
         </div>
+        <div class="quoteCredit">-Thor, God of Thunder</div>
       </section>
-    </main>
+    </div>
 
-    <section class="quoteBox">
-      <div class="quote">
-        It is a long established fact that a reader will be distracted by the
-        readable content of a page when looking at its layout. The point of
-        using Lorem Ipsum is that it has a more-or-less normal distribution of
-      </div>
-      <div class="quoteCredit">-Thor, God of Thunder</div>
-    </section>
+    <div class="wrapper light">
+      <section class="actionBox primary">
+        <div>
+          <h2>Call to action</h2>
+          <p class="subheading">Sign up for xs</p>
+        </div>
+        <button>Sign up</button>
+      </section>
+    </div>
 
-    <section class="actionBox">
-      <div>
-        <h2>Call to action</h2>
-        <p class="subheading">Sign up for xs</p>
-      </div>
-      <button>Sign up</button>
-    </section>
-
-    <footer>Copyright</footer>
+    <div class="wrapper dark">
+      <footer>Copyright</footer>
+    </div>
   </body>
 </html>
