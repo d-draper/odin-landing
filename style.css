@@ -5,7 +5,7 @@
   --secondary: #d0d8e9;
   --max-width: 800px;
   --default-margins: 75px 0;
-  --inset: 100px;
+  --inset: 50px;
 }
 
 * {
@@ -133,8 +133,8 @@ main {
 }
 
 .boxImg {
-  width: 125px;
-  height: 125px;
+  width: 150px;
+  height: 150px;
   border: 3px solid var(--primary);
   border-radius: 10px;
 }
