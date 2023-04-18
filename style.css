@@ -23,6 +23,14 @@ a:active {
 
 /* General styling */
 
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.subheading {
+  color: var(--secondary);
+}
+
 .dark {
   background-color: var(--dark);
   color: var(--light);
@@ -58,8 +66,9 @@ button {
   background-color: var(--primary);
   color: var(--light);
   padding: 6px 30px;
-  border: none;
+  border-color: var(--primary);
   border-radius: 6px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 /* Top Nav */
@@ -70,16 +79,21 @@ nav {
   justify-content: space-between;
 }
 
-nav a {
-  color: var(--secondary);
-}
-
-/* First bar */
+/* First bar ("This website is awesome") */
 
 header {
   margin: var(--default-margins);
   display: flex;
   justify-content: space-between;
+}
+
+.sideBar {
+  width: 50%;
+  margin-right: 25px;
+}
+
+.headerImage {
+  width: 50%;
 }
 
 /* Second bar (boxes) */
@@ -102,6 +116,7 @@ main {
 .squareBoxes p {
   text-align: center;
   margin-top: 8px;
+  width: 125px;
 }
 
 .boxImg {
@@ -142,7 +157,8 @@ main {
 }
 
 .actionBox button {
-  border: 1.5px solid var(--light);
+  border-color: var(--light);
+  border-width: 2px;
 }
 
 /* Footer */
